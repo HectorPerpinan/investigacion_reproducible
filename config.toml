@@ -1,0 +1,59 @@
+baseurl = "https://fisabio.github.io/investigacion_reproducible"
+languageCode = "es-es"
+title = "Investigación Reproducible"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+publishDir = "docs"
+
+[params]
+	# General information
+	author = "FISABIO"
+	description = "Curso de investigación reproducible con R y RStudio."
+	copyright = "FISABIO bajo licencia MIT"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/fisabio/investigacion_reproducible"
+
+	version = ""
+	logo = "/images/fisabio_estadistica.png"
+	favicon = "images/fisabio16x16.ico"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "red"
+    	accent  = "teal"
+
+	[params.font]
+	  	text = "Roboto"
+	  	code = "Roboto Mono"
+
+
+[social]
+	twitter = "GVAfisabio"
+	github  = "fisabio/investigacion_reproducible/"
+	email   = "formacion_fisabio@gva.es"
+
+
+[[menu.main]]
+	name   = "Inicio"
+	url    = "./"
+	weight = 1
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

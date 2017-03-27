@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="es-es">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Investigación Reproducible</title>
+    <meta name="generator" content="Hugo 0.19" />
+
+    
+    <meta name="description" content="Curso de investigación reproducible con R y RStudio.">
+    
+    <link rel="canonical" href="https://fisabio.github.io/investigacion_reproducible/">
+    
+    <meta name="author" content="FISABIO">
+    
+
+    <meta property="og:url" content="https://fisabio.github.io/investigacion_reproducible/">
+    <meta property="og:title" content="Investigación Reproducible">
+    <meta property="og:image" content="https://fisabio.github.io/images/fisabio_estadistica.png">
+    <meta name="apple-mobile-web-app-title" content="Investigación Reproducible">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://fisabio.github.io/investigacion_reproducible/images/fisabio16x16.ico">
+    <link rel="icon" type="image/x-icon" href="https://fisabio.github.io/investigacion_reproducible/images/fisabio16x16.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('https://fisabio.github.io/investigacion_reproducible/fonts/icon.eot');
+        src: url('https://fisabio.github.io/investigacion_reproducible/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('https://fisabio.github.io/investigacion_reproducible/fonts/icon.woff')
+               format('woff'),
+             url('https://fisabio.github.io/investigacion_reproducible/fonts/icon.ttf')
+               format('truetype'),
+             url('https://fisabio.github.io/investigacion_reproducible/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://fisabio.github.io/investigacion_reproducible/stylesheets/application.css">
+    <link rel="stylesheet" href="https://fisabio.github.io/investigacion_reproducible/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://fisabio.github.io/investigacion_reproducible/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://fisabio.github.io/investigacion_reproducible/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700|Roboto&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="https://fisabio.github.io/investigacion_reproducible/javascripts/modernizr.js"></script>
+
+    
+    <link href="https://fisabio.github.io/investigacion_reproducible/index.xml" rel="alternate" type="application/rss+xml" title="Investigación Reproducible" />
+    <link href="https://fisabio.github.io/investigacion_reproducible/index.xml" rel="feed" type="application/rss+xml" title="Investigación Reproducible" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  </head>
+  <body class="palette-primary-red palette-accent-teal">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Investigación Reproducible 
+      </div>
+    </div>
+
+    
+    <div class="button button-twitter" role="button" aria-label="Twitter">
+       <a href="https://twitter.com/GVAfisabio" title="@GVAfisabio on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+    </div>
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/fisabio/investigacion_reproducible/" title="@fisabio/investigacion_reproducible/ on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+
+    
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/fisabio/investigacion_reproducible" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="https://fisabio.github.io/investigacion_reproducible//images/fisabio_estadistica.png">
+        </div>
+      
+      <div class="name">
+        <strong>Investigación Reproducible </strong>
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/fisabio/investigacion_reproducible/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Descargar Material
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Inicio" href="https://fisabio.github.io/investigacion_reproducible/./">
+	
+	Inicio
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">Contacto</span>
+
+        <span class="section">
+          
+            <a href="http://twitter.com/GVAfisabio" title="@GVAfisabio" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+          
+
+          
+            <a href="http://github.com/fisabio/investigacion_reproducible/" title="@fisabio/investigacion_reproducible/" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+          
+
+          
+            <a href="mailto:formacion_fisabio@gva.es" title="@formacion_fisabio@gva.es" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
+          
+          <hr>
+          <hr>
+        </span>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			
+			<br>
+			<div><center><img src="https://fisabio.github.io/investigacion_reproducible/images/logo_curso.png" width="600px" height="100px" align="middle"></center></div>
+			<br>
+				<h1>Curso de Investigación Reproducible con R y RStudio </h1>
+
+				
+
+<h2 id="motivación">Motivación</h2>
+
+<p>Gran parte de los resultados y procedimientos empleados a día de hoy en materia de investigación están siendo cuestionados por su falta de transparencia. Como resultado, gran parte de la literatura científica se está poniendo en duda y los procedimientos de investigación científica actuales están siendo cuestionados dando lugar a una crisis que afecta a las bases de la ciencia tal y como se entiende a día de hoy. Los profesionales en análisis y manejo de datos estamos llamados a jugar un papel crucial dentro de esta crisis.</p>
+
+<p>El presente curso introduce la problemática de la reproducibilidad en la investigación científica desde el enfoque de los analistas de datos. Describimos y abordamos este problema así como el papel que hemos de desempeñar los profesionales del análisis de datos dentro de esta crisis. Ser consciente de este problema, así como de las herramientas para atajarlo es la principal manera de combatirlo. Ese es el principal cometido de este curso, desde la perspectiva de los analistas de datos. Además de la introducción del problema de la reproducibilidad, el curso introduce un gran número de herramientas de <a href="https://www.r-project.org/">R</a> y <a href="https://www.rstudio.com/">RStudio</a> para abordarlo en nuestros propios análisis y dar un mejor tratamiento a este aspecto de nuestra propia investigación científica.</p>
+
+<h2 id="orientación">Orientación</h2>
+
+<p>Profesionales de análisis de datos con experiencia en R y, a ser posible, en RStudio. <strong>Consideremos la experiencia en R un requisito previo para el curso</strong>.</p>
+
+<h2 id="programa">Programa</h2>
+
+<p>El programa del curso se divide en 9 temas:</p>
+
+<ol>
+<li>Reproducibilidad: el problema desde la perspectiva del analista de datos.</li>
+<li>Algunas herramientas básicas para la reproducibilidad en R y RStudio.</li>
+<li>Informes reproducibles con <a href="http://rmarkdown.rstudio.com/">R Markdown</a>.</li>
+<li>Más allá de la reproducibilidad: replicabilidad y otras cuestiones relativas a la validez de la investigación.</li>
+<li>Informes dinámicos.</li>
+<li>Aplicaciones web con <a href="http://shiny.rstudio.com/">Shiny</a>.</li>
+<li>P-valores y su crisis.</li>
+<li>Uso e implementación de paquetes en R.</li>
+<li>Herramientas de control de versiones para compartir código: <a href="https://git-scm.com/">Git</a> y <a href="https://github.com/">GitHub</a>.</li>
+</ol>
+
+<h2 id="profesorado">Profesorado</h2>
+
+<ul>
+<li>Paloma Botella Rocamora. Área de Epidemiología, Dirección General de Salud Pública.</li>
+<li>Francisca Corpas Burgos. Área de Desigualdades, FISABIO.</li>
+<li>Gonzalo García-Donato Layrón. Universidad de Castilla-la Mancha.</li>
+<li>Miguel Ángel Martínez Beneito. Área de Desigualdades, FISABIO.</li>
+<li>Hèctor Perpiñan Faubel. Área de Desigualdades, FISABIO.</li>
+<li>Jordi Pérez Panadés.  Área de Epidemiología, Dirección General de Salud Pública.</li>
+<li>Carlos Vergara Hernández. Área de Desigualdades, FISABIO.</li>
+</ul>
+
+<h2 id="fechas-y-lugar-de-celebración">Fechas y lugar de celebración</h2>
+
+<p>El curso se impartirá la semana del 5 al 9 de junio de 2017 (un total de 25 horas lectivas), en la biblioteca de FISABIO.</p>
+
+<h2 id="organización">Organización</h2>
+
+<ul>
+<li>Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunitat Valenciana (<a href="http://fisabio.san.gva.es/">FISABIO</a>).</li>
+<li>Sociedad Española de Biometría (<a href="https://ibsseb.wordpress.com/">SEB</a>).</li>
+<li>Sociedad Española de Epidemiología (<a href="http://www.seepidemiologia.es/">SEE</a>).</li>
+</ul>
+
+<h2 id="inscripción">Inscripción</h2>
+
+<p>Para inscribirte en el curso debes enviarnos un <a href="mailto:formacion_fisabio@gva.es">correo electrónico</a> con la siguiente información:</p>
+
+<ul>
+<li>nombre y apellidos,</li>
+<li>institución,</li>
+<li>titulación,</li>
+<li>dirección de correo electrónico de contacto,</li>
+<li>teléfono de contacto,</li>
+<li>condición de miembro de la <a href="https://ibsseb.wordpress.com/">SEB</a> o de la <a href="http://www.seepidemiologia.es/">SEE</a>.</li>
+</ul>
+
+<p>La inscripción en el curso tiene un coste de 300 €. No obstante, se aplica un descuento de 50 € a quienes sean miembros de la SEB o de la SEE. Este descuento es acumulable, es decir, la cuota de inscripción del curso para quienes pertenezcan a ambas instituciones es de 200 €. Además, tanto la SEB como la SEE ofertan distintas becas de inscripción al curso entre sus miembros estudiantes. Puedes encontrar más información sobre estas becas en las páginas web y otros medios de difusión de ambas sociedades.</p>
+
+<div class="admonition warning">
+<p class="admonition-title">Importante</p>
+<p>Dado que el número de plazas son limitadas, estas se asignarán por orden de inscripción y pago.</p>
+</div>
+
+			
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2017 FISABIO bajo licencia MIT &ndash;
+				
+				Documentación construida con
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				usando el tema
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a>.
+			</aside>
+
+			<footer class="footer">
+				
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = 'https:\/\/fisabio.github.io\/investigacion_reproducible';
+      var repo_id  = 'fisabio\/investigacion_reproducible';
+    
+    </script>
+
+    <script src="https://fisabio.github.io/investigacion_reproducible/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
