@@ -17,15 +17,15 @@ Profesionales de análisis de datos con experiencia en R y, a ser posible, en RS
 ## Programa
 El programa del curso se divide en 9 temas:
 
-1. Reproducibilidad: el problema desde la perspectiva del analista de datos.
-2. Algunas herramientas básicas para la reproducibilidad en R y RStudio.
-3. Informes reproducibles con [R Markdown](http://rmarkdown.rstudio.com/).
-4. Más allá de la reproducibilidad: replicabilidad y otras cuestiones relativas a la validez de la investigación.
-5. Informes dinámicos.
-6. Aplicaciones web con [Shiny](http://shiny.rstudio.com/).
-7. P-valores y su crisis.
-8. Uso e implementación de paquetes en R.
-9. Herramientas de control de versiones para compartir código: [Git](https://git-scm.com/) y [GitHub](https://github.com/).
+1. Reproducibilidad: el problema desde la perspectiva del analista de datos (1.5 horas).
+2. Algunas herramientas básicas para la reproducibilidad en R y RStudio (1.5 horas).
+3. Informes reproducibles con [R Markdown](http://rmarkdown.rstudio.com/) (3 horas).
+4. Más allá de la reproducibilidad: replicabilidad y otras cuestiones relativas a la validez de la investigación  (1.5 horas).
+5. Informes interactivos (3 horas).
+6. Aplicaciones web con [Shiny](http://shiny.rstudio.com/)  (4.5 horas).
+7. P-valores y su crisis (1.5 horas).
+8. Uso e implementación de paquetes en R (4.5 horas).
+9. Herramientas de control de versiones para compartir código: [Git](https://git-scm.com/) y [GitHub](https://github.com/) (4.5 horas).
 
 ## Profesorado
 
@@ -33,17 +33,17 @@ El programa del curso se divide en 9 temas:
 - Francisca Corpas Burgos. Área de Desigualdades, FISABIO.
 - Gonzalo García-Donato Layrón. Universidad de Castilla-la Mancha.
 - Miguel Ángel Martínez Beneito. Área de Desigualdades, FISABIO.
-- Hèctor Perpiñan Faubel. Área de Desigualdades, FISABIO.
+- Hèctor Perpiñán Fabuel. Área de Desigualdades, FISABIO.
 - Jordi Pérez Panadés.  Área de Epidemiología, Dirección General de Salud Pública.
 - Carlos Vergara Hernández. Área de Desigualdades, FISABIO.
 
 ## Fechas y lugar de celebración
-El curso se impartirá la semana del 5 al 9 de junio de 2017 (un total de 25 horas lectivas), en la biblioteca de FISABIO.
+El curso se impartirá la semana del 5 al 9 de junio de 2017 (un total de 25 horas lectivas), en la biblioteca de FISABIO. Las sesiones de los días 5 y 9 de junio serán solo en horario de tarde y mañana, respectivamente.
 
 ## Organización
 
 - Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunitat Valenciana ([FISABIO](http://fisabio.san.gva.es/)).
-- Sociedad Española de Biometría ([SEB](https://ibsseb.wordpress.com/)).
+- Sociedad Española de Biometría ([SEB](http://www.biometricsociety.org/)).
 - Sociedad Española de Epidemiología ([SEE](http://www.seepidemiologia.es/)).
 
 ## Inscripción
@@ -57,6 +57,8 @@ Para inscribirte en el curso debes enviarnos un [correo electrónico](mailto:for
 - condición de miembro de la [SEB](https://ibsseb.wordpress.com/) o de la [SEE](http://www.seepidemiologia.es/).
 
 La inscripción en el curso tiene un coste de 300 €. No obstante, se aplica un descuento de 50 € a quienes sean miembros de la SEB o de la SEE. Este descuento es acumulable, es decir, la cuota de inscripción del curso para quienes pertenezcan a ambas instituciones es de 200 €. Además, tanto la SEB como la SEE ofertan distintas becas de inscripción al curso entre sus miembros estudiantes. Puedes encontrar más información sobre estas becas en las páginas web y otros medios de difusión de ambas sociedades.
+
+Si deseas realizar una consulta relacionada con el curso, puedes hacerlo escribiendo un correo electrónico a [martinez_mig@gva.es](mailto:martinez_mig@gva.es)
 
 {{< warning title="Importante" >}}
 Dado que el número de plazas son limitadas, estas se asignarán por orden de inscripción y pago.
