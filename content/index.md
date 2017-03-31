@@ -3,6 +3,7 @@ date: 2016-03-08T21:07:13+01:00
 title: Curso de Investigación Reproducible con R y RStudio
 type: index
 weight: 0
+description: "Presentación del curso sobre Investigación Reproducible"
 ---
 
 ## Motivación
@@ -12,7 +13,7 @@ El presente curso introduce la problemática de la reproducibilidad en la invest
 
 
 ## Orientación
-Profesionales de análisis de datos con experiencia en R y, a ser posible, en RStudio. **Consideremos la experiencia en R un requisito previo para el curso**.
+Profesionales de análisis de datos con experiencia en R y, a ser posible, en RStudio. **Consideramos la experiencia en R un requisito previo para el curso**.
 
 ## Programa
 El programa del curso se divide en 9 temas:
