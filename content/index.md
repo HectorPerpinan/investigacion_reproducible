@@ -44,7 +44,7 @@ El curso se impartirá la semana del 5 al 9 de junio de 2017 (un total de 25 hor
 ## Organización
 
 - Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunitat Valenciana ([FISABIO](http://fisabio.san.gva.es/)).
-- Sociedad Española de Biometría ([SEB](http://www.biometricsociety.org/)).
+- Sociedad Española de Biometría ([SEB](http://www.biometricsociety.net/)).
 - Sociedad Española de Epidemiología ([SEE](http://www.seepidemiologia.es/)).
 
 ## Inscripción
@@ -55,9 +55,9 @@ Para inscribirte en el curso debes enviarnos un [correo electrónico](mailto:for
 - titulación,
 - dirección de correo electrónico de contacto,
 - teléfono de contacto,
-- condición de miembro de la [SEB](https://ibsseb.wordpress.com/) o de la [SEE](http://www.seepidemiologia.es/).
+- condición de miembro de la [SEB](http://www.biometricsociety.net/) o de la [SEE](http://www.seepidemiologia.es/).
 
-La inscripción en el curso tiene un coste de 300 €. No obstante, se aplica un descuento de 50 € a quienes sean miembros de la SEB o de la SEE. Este descuento es acumulable, es decir, la cuota de inscripción del curso para quienes pertenezcan a ambas instituciones es de 200 €. Además, tanto la SEB como la SEE ofertan distintas becas de inscripción al curso entre sus miembros estudiantes. Puedes encontrar más información sobre estas becas en las páginas web y otros medios de difusión de ambas sociedades.
+La inscripción en el curso tiene un coste de 300 €. No obstante, se aplica un descuento de 50 € a quienes sean miembros de la SEB o de la SEE. Este descuento es acumulable, es decir, la cuota de inscripción del curso para quienes pertenezcan a las dos sociedades es de 200 €. Además, ambas instituciones ofertan varias becas de inscripción al curso entre sus miembros: puedes encontrar más información sobre estas becas en las páginas web de ambas sociedades ([información de la SEE](http://www.seepidemiologia.es/ver_noticia.php?idn=702), [información de la SEB](http://www.biometricsociety.net/2017/04/04/curso-investigacion-reproducible-con-r-y-r-studio/)).
 
 Si deseas realizar una consulta relacionada con el curso, puedes hacerlo escribiendo un correo electrónico a [martinez_mig@gva.es](mailto:martinez_mig@gva.es)
 
