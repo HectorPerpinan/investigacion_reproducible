@@ -267,7 +267,7 @@
 
 <h2 id="software-necesario">Software necesario</h2>
 
-<p>Con la intención de maximizar el tiempo útil del curso, creemos necesario que los alumnos instalen los siguientes programas de software (todos ellos disponibles en Linux, Mac y Windows):</p>
+<p>Con la intención de maximizar el tiempo útil del curso, creemos <strong>necesario</strong> que los alumnos instalen los siguientes programas de software (todos ellos disponibles en Linux, Mac y Windows):</p>
 
 <ul>
 <li>versión 3.3.4 de <a href="https://cran.r-project.org/">R</a>,</li>
@@ -275,26 +275,59 @@
 <li>versión 2.13.0 de <a href="https://git-scm.com/downloads">Git</a>.</li>
 </ul>
 
-<p>También resulta imprescindible disponer de una cuenta en <a href="https://github.com/">GitHub</a>, cuyo registro solo precisa de un correo electrónico.</p>
-
 <h2 id="paquetes-de-r">Paquetes de R</h2>
 
-<p>Durante las sesiones de trabajo resultará necesario usar algunos paquetes de R. Lanzando la siguiente sentencia se instalarán los imprescindibles junto a sus dependencias:</p>
+<p>Durante las sesiones de trabajo resultará <strong>necesario</strong> usar algunos paquetes de R. Lanzando la siguiente sentencia se instalarán los imprescindibles junto a sus dependencias:</p>
 
 <pre><code class="language-r">install.packages(pkgs = c(&quot;devtools&quot;, &quot;DT&quot;, &quot;ggplot2&quot;, &quot;leaflet&quot;, &quot;pander&quot;, &quot;plotly&quot;,
                           &quot;rmarkdown&quot;, &quot;roxygen2&quot;, &quot;shiny&quot;, &quot;testthat&quot;))
 </code></pre>
 
+<h2 id="github">GitHub</h2>
+
+<p>Dado que forma una parte importante del curso, resulta <strong>imprescindible</strong> disponer de una cuenta en <a href="https://github.com/">GitHub</a>, cuyo registro solo precisa de un correo electrónico. GitHub es una plataforma web que da un respaldo remoto a todo el trabajo que se haga con Git de manera local. Es por ello que hay que asegurar que el canal de comunicación entre el ordenador y GitHub sea efectivo, lo que se reduce a tener bien introducidas en la cuenta de GitHub las claves SSH del ordenador (u ordenadores) en el que se trabaje. Para hacer esto, hay que abrir una terminal en cualquier directorio (los usuarios de Windows abrirán la aplicación <em>Git Bash</em> que se instala junto a Git) y seguir estos pasos:</p>
+
+<ol>
+<li>Ejecutar la instrucción <code>ssh-keygen -t rsa -b 4096 -C &quot;tu_correo@electronico.com&quot;</code>, añadiendo el correo que desees (no tiene que ser el mismo que figura en la cuenta de GitHub que se acaba de crear, aunque es recomendable),
+
+<ul>
+<li>apretar Intro las veces necesarias hasta que dejen de aparecer mensajes en la terminal. Sobre todo <strong>NO SE INTRODUCE UNA CONTRASEÑA</strong>.</li>
+</ul></li>
+<li>Ejecutar las siguientes instrucciones: primero <code>eval &quot;$(ssh-agent -s)&quot;</code>, esperar al resultado e introducir <code>ssh-add ~/.ssh/id_rsa</code>.
+
+<ul>
+<li>si apareciera un error en el último paso (algo poco probable), se deberá buscar el directorio <code>.ssh</code> en el sistema y modificar la anterior ruta.</li>
+</ul></li>
+<li>Copiar el contenido del archivo <code>~/.ssh/id_rsa.pub</code>.
+
+<ul>
+<li>se puede hacer muy fácilmente con la instrucción <code>cat ~/.ssh/id_rsa.pub</code>, lo que imprimirá en la terminal un conjunto de caracteres que es el que hay que copiar.</li>
+</ul></li>
+<li>Abrir un navegador e ir a la cuenta de GitHub. En la parte superior derecha, pinchar en el avatar y luego en <em>Settings</em>.</li>
+<li>En el apartado <em>Personal settings</em>, pinchar en <em>SSH and GPG keys</em>.</li>
+<li>En la sección <em>SSH keys</em>, hacer clic en <em>New SSH key</em>, otorgar un título a la clave (por ejemplo: mi-ordenador-personal), pegar la clave recién copiada en el apartado <em>Key</em>, y hacer clic en <em>Add SSH key</em> para terminar la operación.</li>
+</ol>
+
+<p>Por último, solo queda que Git conozca la identidad del usuario del ordenador, para lo cual hay que introducir en una terminal:</p>
+
+<pre><code>git config --global user.name &quot;tu_nombre_completo&quot;
+git config --global user.email tu_correo@electronico.com
+</code></pre>
+
+<p>En todo caso, esta conexión se tratará en la sesión correspondiente del curso de modo que si surgiera alguna complicación esta se podrá resolver durante el desarrollo del mismo.</p>
+
 <h2 id="software-opcional">Software opcional</h2>
 
-<p>Aunque se puede aprovechar el curso al 100 % con lo anteriormente expuesto, sería recomendable que quienes quieran experimentar con herramientas avanzadas acudan con una versión reciente y lo más completa posible de:</p>
+<p>Aunque se puede aprovechar el curso al 100 % con lo anteriormente expuesto, sería <strong>recomendable</strong> (y por tanto, opcional) que quienes quieran experimentar con herramientas avanzadas acudan con una versión reciente y lo más completa posible de:</p>
 
 <ul>
 <li>el sistema de producción de documentos <a href="https://es.wikipedia.org/wiki/TeX">TeX</a> (recomendamos la distribución de <a href="https://tug.org/texlive/acquire-netinstall.html">Tex Live</a>),</li>
 <li>una <a href="http://www.texstudio.org/">interfaz de usuario TeX</a>,</li>
-<li>una <a href="https://git-scm.com/downloads/guis">interfaz de usuario para Git</a> (aunque en gran medida se procurará trabajar desde terminal o RStudio), y</li>
+<li>una <a href="https://git-scm.com/downloads/guis">interfaz de usuario para Git</a> (aunque se trabajará desde terminal o RStudio, recomendamos <a href="https://www.gitkraken.com/download">GitKraken</a> como elemento de apoyo), y</li>
 <li>un buen procesador de textos, siendo recomendable <a href="https://atom.io/">Atom</a> o <a href="https://www.sublimetext.com/">Sublime Text</a>.</li>
 </ul>
+
+<p>Los usuarios de Windows o Mac que deseen trabajar con código compilado (C++), deberán instalar <a href="https://cran.r-project.org/bin/windows/Rtools/Rtools34.exe">Rtools.exe</a> (Windows) o <a href="https://developer.apple.com/xcode/">Xcode</a> (Mac).</p>
 
 
 			<aside class="copyright" role="note">
