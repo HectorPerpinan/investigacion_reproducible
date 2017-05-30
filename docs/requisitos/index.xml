@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Investigación Reproducible</title>
-    <link>https://fisabio.github.io/investigacion_reproducible/</link>
-    <description>Recent content on Investigación Reproducible</description>
+    <title>Requisitos on Investigación Reproducible</title>
+    <link>https://fisabio.github.io/investigacion_reproducible/requisitos/</link>
+    <description>Recent content in Requisitos on Investigación Reproducible</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>FISABIO. Licencia MIT</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="https://fisabio.github.io/investigacion_reproducible/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fisabio.github.io/investigacion_reproducible/requisitos/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Curso de Investigación Reproducible con R y RStudio</title>
-      <link>https://fisabio.github.io/investigacion_reproducible/</link>
-      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
-      
-      <guid>https://fisabio.github.io/investigacion_reproducible/</guid>
-      <description>Motivación Gran parte de los resultados y procedimientos empleados a día de hoy en materia de investigación están siendo cuestionados por su falta de transparencia. Como resultado, gran parte de la literatura científica se está poniendo en duda y los procedimientos de investigación científica actuales están siendo cuestionados dando lugar a una crisis que afecta a las bases de la ciencia tal y como se entiende a día de hoy.</description>
-    </item>
     
     <item>
       <title>Requisitos técnicos previos al inicio del curso</title>

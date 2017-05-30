@@ -12,7 +12,7 @@ publishDir = "docs"
 	# General information
 	author = "FISABIO"
 	description = "Curso de investigación reproducible con R y RStudio."
-	copyright = "FISABIO bajo licencia MIT"
+	copyright = "FISABIO. Licencia MIT"
 
 	# Repository
 	provider = "GitHub"
@@ -50,6 +50,13 @@ publishDir = "docs"
 	name   = "Inicio"
 	url    = "./"
 	weight = 1
+
+[[menu.main]]
+	name   = "Requisitos previos"
+	url    = "requisitos/"
+	weight = 2
+
+
 
 
 [blackfriday]
