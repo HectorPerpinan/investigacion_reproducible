@@ -34,7 +34,7 @@ El programa del curso se divide en 9 temas:
 - Francisca Corpas Burgos. Área de Desigualdades, FISABIO.
 - Gonzalo García-Donato Layrón. Universidad de Castilla-la Mancha.
 - Miguel Ángel Martínez Beneito. Área de Desigualdades, FISABIO.
-- Hèctor Perpiñán Fabuel. Área de Desigualdades, FISABIO.
+- Hèctor Perpiñán Fabuel. Unitat de Bioestadística, IRBLLEIDA.
 - Jordi Pérez Panadés.  Área de Epidemiología, Dirección General de Salud Pública.
 - Carlos Vergara Hernández. Área de Desigualdades, FISABIO.
 
